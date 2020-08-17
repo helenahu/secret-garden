@@ -1,17 +1,19 @@
 .HeadBar{
     display:flex;
     flex-direction: row;
-    justify-content: flex-end;
-    padding: 2vw;
+    justify-content: space-between;
+    padding: 1vw;
     margin-bottom: 5vh;
+    align-content: center;
 }
 
 .Container{
     display: grid;
     grid-template-columns: 33% 33% 33%;
     justify-items: center;
+    align-items:center;
     text-align: center;
-    font-size: 1.3vw;
+    font-size: 1vw;
     letter-spacing: 0.4px;
     color: #3E4251;
     opacity: 1;
@@ -40,4 +42,8 @@ a{
 .Container a:hover::after {
     width: 100%;
     /* //transition: width .3s; */
+}
+
+#logo{
+    padding-left:1vw;
 }

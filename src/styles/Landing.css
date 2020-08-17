@@ -28,18 +28,26 @@
     padding: 0vw 8vw 0vw 2vw;
 }
 #quick-links{
+    justify-self: center;
     display:flex;
     flex-direction: column;
     justify-content: flex-end;
+    align-items: center;
     padding-bottom: 200%;
     z-index:100;
 }
+
 .link-icons{
-    width: 50%;
     margin: 10%;
-    z-index: 100;
+    display:inline-block;
+
+}
+.link-icons svg{
+    fill: #91949C;
+
 }
 
 #quick-links a svg:hover{
-    fill: #000000;
+    fill: #3E4251;
 }
+

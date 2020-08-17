@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="54" height="54" viewBox="0 0 54 54">
+  <g id="Group_4" data-name="Group 4" transform="translate(-70 -55)">
+    <text id="H" transform="translate(84 81)" fill="#91949c" font-size="17" font-family="JosefinSans-Regular, Josefin Sans" letter-spacing="0.02em"><tspan x="0" y="0">H</tspan></text>
+    <text id="H-2" data-name="H" transform="translate(97 95)" fill="#91949c" font-size="17" font-family="JosefinSans-Regular, Josefin Sans" letter-spacing="0.02em"><tspan x="0" y="0">H</tspan></text>
+    <line id="Line_1" data-name="Line 1" x1="22.365" y2="22.365" transform="translate(85.818 70.818)" fill="none" stroke="#91949c" stroke-width="1"/>
+    <g id="Rectangle_2" data-name="Rectangle 2" transform="translate(97 55) rotate(45)" fill="none" stroke="#707070" stroke-width="1">
+      <rect width="38.184" height="38.184" stroke="none"/>
+      <rect x="0.5" y="0.5" width="37.184" height="37.184" fill="none"/>
+    </g>
+  </g>
+</svg>
