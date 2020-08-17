@@ -1,0 +1,45 @@
+#bio-pic{
+    width: 60vw; 
+    max-width: 900px;
+    min-width: 250px;
+}
+#description-row{
+    padding-left: 8vw;
+    padding-right:8vw;
+    display:grid;
+    grid-auto-flow: row;
+    grid-template-columns: 52% 48% ;
+}
+#link-bio-wrap{
+    display:grid;
+    grid-template-columns: 10% 90%;
+}
+#description{
+    font-size: 1.5vw;
+    line-height: 6.5vw;
+    margin-top: 30vh;
+    letter-spacing: 1px;
+    color:#3E4251;
+}
+.flex-container{
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 0vw 8vw 0vw 2vw;
+}
+#quick-links{
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-bottom: 200%;
+    z-index:100;
+}
+.link-icons{
+    width: 50%;
+    margin: 10%;
+    z-index: 100;
+}
+
+#quick-links a svg:hover{
+    fill: #000000;
+}

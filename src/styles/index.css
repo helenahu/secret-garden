@@ -1,0 +1,13 @@
+
+.MainDiv{
+    background-color: #E4E6E8;
+    margin: none;
+}
+
+body{
+    margin:0px;
+    font-family:"Josefin Sans";
+    font-weight:"light";
+    letter-spacing: 0.6px;
+    color:#3E4251;
+}

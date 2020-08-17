@@ -1,0 +1,43 @@
+.HeadBar{
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 2vw;
+    margin-bottom: 5vh;
+}
+
+.Container{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    justify-items: center;
+    text-align: center;
+    font-size: 1.3vw;
+    letter-spacing: 0.4px;
+    color: #3E4251;
+    opacity: 1;
+    width: 700px;
+    margin-right: 5vw;
+}
+
+a{
+    color: #3E4251;
+    text-decoration: none;
+}
+
+.Container a:hover{
+    font-weight: bold;
+}
+
+.Container a::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #000;
+    transition: width .3s;
+}
+
+.Container a:hover::after {
+    width: 100%;
+    /* //transition: width .3s; */
+}
