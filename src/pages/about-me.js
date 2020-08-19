@@ -1,13 +1,11 @@
 import React from "react"
 import { Link } from "gatsby"
-import SEO from "../components/seo"
 import '../styles/index.css'
 
 const AboutMe = () => (
   <div>
-    <SEO title="Page two" />
-    <h1>Hi from the second page</h1>
-    <p>Welcome to page 2</p>
+    <h1>This page is still under development.</h1>
+    <p>Please check this out later</p>
     <Link to="/">Go back to the homepage</Link>
   </div>
 )
