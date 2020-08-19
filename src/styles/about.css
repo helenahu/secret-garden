@@ -1,0 +1,41 @@
+#mainDiv{
+    background-color: #91949C;
+    color: #E4E6E8;
+    display: flex;
+    flex-direction: column;
+} 
+
+#titleDiv{
+    padding: 4.5vw 15vw 1.3vw 15vw;
+
+}
+#paragraphDiv{
+    padding: 0vw 18vw 4vw 18vw;
+}
+
+#paragraphDiv p{
+    font-size: 1.5vw;
+    line-height: 2em;
+    letter-spacing: 0.08em;
+    margin-block-start: 1.5em;
+    margin-block-end: 1.5em;
+}
+
+#p_and_earth{
+
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#p_and_earth img{
+    padding-top: 8%;
+}
+
+#p_and_earth p{
+    margin-top: 0;
+}
+
+
+
+

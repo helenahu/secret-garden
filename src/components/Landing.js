@@ -26,7 +26,7 @@ const Landing = ({ siteTitle }) => (
 <div>
     <div id="description">Hi I’m Helena,<br/>a “Rice Owl” passionate about design & development. <br/>Welcome to my Secret Garden!</div>
     <div className="flex-container">
-        <img src={Rose} width='30%'/>
+        <img src={Rose} width='20%'/>
     </div>
 </div>
 </div>
