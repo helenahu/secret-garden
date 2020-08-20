@@ -62,14 +62,18 @@
     
 }
 .project-img:hover{
-    width:47.5%;
+    width:93%;
+    box-shadow: #63697e 0.8vw 0.8vw 1.5vw;
 }
+
 .project-img{
     transition: 0.3s;
-    box-shadow: #3E4251 1vw 1vw 2vw;
     transition: 0.3s;
     background-color: transparent;
+    border: none;
+    border-radius: 5%;
 }
+
 .project button{
     align-self: flex-start;
     font-size: 1.3vw;
