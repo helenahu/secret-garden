@@ -21,7 +21,7 @@ export default function Portfolio() {
                         <li>Customer & Businesses Mock Up</li>
                     </ul>
                 </div>
-                <button>View</button>
+                <Link className="view-link" to="/my-works/"> View</Link>
             </div>
             <div id="hedwig-pics" className="project-img-right" >
                 <Link className="img-links" className="hedwig-links" to="/my-works/">
@@ -53,7 +53,8 @@ export default function Portfolio() {
                             <li>Debut</li>
                         </ul>
                     </div>
-                    <button>View</button>
+                    <Link className="view-link" to="/my-works/"> View</Link>
+                   
                 </div>
                 
             </div>
