@@ -2,14 +2,13 @@ import React from "react"
 import { Link } from "gatsby"
 import '../styles/index.css'
 import Header from "../components/header"
-import Landing from "../components/Landing"
-import About from "../components/about"
+import Body from "../components/body"
 
 const IndexPage = () => (
   <div className='MainDiv'>
     <Header></Header>
-    <Landing></Landing>
-    <About></About>
+    <Body></Body>
+    
     </div>
    
 )

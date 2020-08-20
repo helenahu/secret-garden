@@ -1,0 +1,113 @@
+.PortfolioDiv{
+    background-color: #E4E6E8;
+    padding: 8vw 13.5vw 8vw 13.5vw;
+    letter-spacing: 0.08em;
+    display: flex;
+    flex-direction: column;
+    
+}
+#recent-projects{
+    font-size: 1.8vw;
+}
+.project{
+    padding-top: 5vw;
+    padding-bottom: 5vw;
+    display: flex;
+    justify-content: space-between;
+    
+    /* flex-wrap: wrap; */
+}
+.project-text{
+    display:flex;
+    flex-direction: column;
+    max-width: 30vw;
+}
+.project-title{
+    font-size: 3vw;
+}
+.project-description{
+    color: #91949C;
+    /* font-weight: 200; */
+    font-size: 1.4vw;
+    line-height: 2em;
+    margin: 0;
+}
+
+.project-tags ul{
+    /* font-weight: 200; */
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction: row;
+    list-style-type:none;
+    justify-content: space-between;
+    padding: 0;
+    width: 70%;
+}
+.project-tags ul li{
+    background-color: #91949C;
+    color: #E4E6E8;
+    border-radius: 1em;
+    padding: 0.25em 0.5em 0.25em 0.5em;
+    font-size: 1vw;
+    margin: 0.25em;
+    opacity: 0.7;
+}
+.project-img-right{
+    align-self:center;
+    margin-left: 7%;
+}
+.project-img-left{
+    align-self:center;
+    margin-right: 7%;
+    
+}
+.project-img:hover{
+    width:47.5%;
+}
+.project-img{
+    transition: 0.3s;
+    box-shadow: #3E4251 1vw 1vw 2vw;
+    transition: 0.3s;
+    background-color: transparent;
+}
+.project button{
+    align-self: flex-start;
+    font-size: 1.3vw;
+    border: none;
+    background-color: transparent;
+    outline: none;
+    letter-spacing: 0.04em;
+    font-family:"Josefin Sans";
+    color: #3E4251;
+    border-bottom: solid #3E4251 0.1em;
+    padding-bottom: 0.07em;
+    transition: 0.3s;
+
+}
+
+.project button:hover{
+    border-bottom: solid #3E4251 0.2em;
+    padding-bottom: 0;
+    transition: 0.3s;
+}
+
+#hedwg-pics{
+    display:flex; 
+}
+#hedwig-pics img{
+    margin: 1%;
+    transition: 0.3s;
+}
+
+#buyer{
+    width: 10%;
+}
+#buyer:hover{
+    width: 11%;
+}
+#vendor{
+    width: 80%;
+}
+#vendor:hover{
+    width: 84%;   
+}
