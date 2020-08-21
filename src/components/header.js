@@ -35,7 +35,7 @@ const Header = ({ siteTitle }) => (
   </div>
   <div className='Container'>
     <div><Link to="/">Home</Link></div>
-    <div>  <Link to="/about-me/">About Me</Link></div>
+    <div>  <Link to="/#try">About Me</Link></div>
     <div>  <Link to="/my-works/">My Works</Link></div>
   </div>  
 </div>

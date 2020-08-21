@@ -28,7 +28,7 @@ export default function About() {
                 <p>Edu: Undergraduate @ Rice University.
                 <br/>Major: Computer Science.
                 <br/>Graduation: Expected May 2023.</p>
-                <animated.img src={Earth} style={{ transform: radians.interpolate(interpLarge(1)) }} />
+                <animated.img src={Earth} width="20%" style={{ transform: radians.interpolate(interpLarge(1)) }} />
                 
             </div>
             
