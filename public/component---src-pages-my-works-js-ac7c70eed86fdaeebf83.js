@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[7],{TLX4:function(e,n,t){"use strict";t.r(n),t.d(n,"default",(function(){return a}));var l=t("q1tI"),u=t.n(l);t("VxdY");function a(){return u.a.createElement("div",null,u.a.createElement("h1",null,"This page is still under development."),u.a.createElement("p",null,"Please check this out later"))}},VxdY:function(e,n,t){}}]);
+//# sourceMappingURL=component---src-pages-my-works-js-ac7c70eed86fdaeebf83.js.map

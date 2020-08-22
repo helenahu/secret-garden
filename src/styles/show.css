@@ -1,0 +1,89 @@
+body{
+    margin:0px;
+    font-family:"Josefin Sans";
+    font-weight:"light";
+    letter-spacing: 0.6px;
+    color:#3E4251;
+    background-color: #E4E6E8;
+}
+
+#MainDiv{
+    margin: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 8vw 13.5vw 8vw 13.5vw;
+}
+
+#ShowTitleDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.visit-website{
+    margin-top:1vw;
+    margin-bottom: 3vw;
+    display:flex;
+    color: #C6A01D;
+    border-bottom: 0.1em #C6A01D solid;
+    padding-bottom: 0.2em;
+    transition: 0.3s;
+}
+
+.visit-website:hover{
+    border-bottom: 0.3em #C6A01D solid;
+    padding-bottom: 0;
+    transition: 0.3s;
+}
+
+a:-webkit-any-link{
+    color: inherit;
+    text-decoration-line: none;
+}
+
+#ShowTitleDiv h4 span{
+    color: #C6A01D;
+}
+
+
+#ShowContentDiv{
+    margin-top: 2vw;
+    display: flex;
+    flex-direction: column;
+}
+
+#ShowContentDiv div{
+    display: flex;
+    /* flex-wrap: wrap; */
+    padding-top: 3vw;
+    padding-bottom: 3vw;
+    justify-content: space-evenly;
+    align-items: center;
+    
+    width: 80vw;
+}
+
+#ShowContentDiv div img{
+    width: 40vw;
+    border-radius: 2vw;
+    border: 0.8vw solid white;
+    box-shadow: 0px 10px 30px -5px rgba(0, 0, 0, 0.3);
+}
+
+.description{
+    font-size: 1.6vw;
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+}
+.description p{
+    font-size: 1.3vw;
+    color: #3E4251;
+    opacity: 0.7;
+    text-align: start;
+    line-height: 2em;
+    padding: 3vw;
+}

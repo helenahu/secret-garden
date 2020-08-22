@@ -39,7 +39,7 @@ export default function Portfolio() {
         {/* Carpool Project */}
         <div className="project">
             <div id="carpool-pics" className="project-img-left" >
-                <Link className="img-links" className="hedwig-links" to="/my-works/">
+                <Link className="img-links" className="hedwig-links" to="/carpoolShow/">
                     <img src={CarpoolPic} className="project-img" width="90%"/>
                 </Link>
             </div>
@@ -53,12 +53,12 @@ export default function Portfolio() {
                             <li>Debut</li>
                         </ul>
                     </div>
-                    <Link className="view-link" to="/my-works/"> View</Link>
+                    <Link className="view-link" to="/carpoolShow/"> View</Link>
                    
                 </div>
                 
             </div>
-        
+
     </div>
   );
 }
