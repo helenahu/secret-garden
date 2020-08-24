@@ -26,8 +26,9 @@ export default function CarpoolShow() {
         <div id="ShowTitleDiv">
             <animated.img src={Logo} width="70vh" style={{marginBottom:"1vw", width:"4vw", transform: radians.interpolate(interpSmall(1)) }}/>
             <h1>Carpool</h1>
-            <h3>an innovative web making carpooling fast and convenient for Rice community.</h3>
-            <h4>NOTE: Website already deployed. <span>You might need a NetID to LogIn</span></h4>
+            <h3>An innovative web making carpooling fast and convenient for Rice community.</h3>
+            <h4>Acknowledgement: RiceApp Carpool Team & OSA 2020 Carpool Team</h4>
+            <h4>NOTE: This website is already deployed. <span>You might need a NetID to LogIn</span></h4>
             <div className="visit-website"><a href="http://carpool.riceapps.org/"> Click Here To Visit</a>
         </div></div>
         <div id="ShowContentDiv">
@@ -43,14 +44,7 @@ export default function CarpoolShow() {
                 </p>
                     <img src={EditProfile} />
             </div>
-            <div id="NewRide">
-                <p className="description">Create New Ride
-                    <p>Just with a few click, either customize your location or select frequently visited places.
-                        <br/>If you like, invite your friends and travel together!
-                    </p>
-                </p>
-                <img src={NewRide} />
-            </div>
+            
             <div id="FindRide">
                 <img src={FindRide} />
                 <p className="description">Find Ride
@@ -59,7 +53,14 @@ export default function CarpoolShow() {
                     </p>
                 </p>
             </div>
-            
+            <div id="NewRide">
+                <p className="description">Create New Ride
+                    <p>Just with a few click, either customize your location or select frequently visited places.
+                        <br/>If you like, invite your friends and travel together!
+                    </p>
+                </p>
+                <img src={NewRide} />
+            </div>
         </div>
     </div>
     </div>

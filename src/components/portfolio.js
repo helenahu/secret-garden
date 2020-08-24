@@ -21,13 +21,13 @@ export default function Portfolio() {
                         <li>Customer & Businesses Mock Up</li>
                     </ul>
                 </div>
-                <Link className="view-link" to="/my-works/"> View</Link>
+                <Link className="view-link" to="/HedwigShow/"> View</Link>
             </div>
             <div id="hedwig-pics" className="project-img-right" >
-                <Link className="img-links" className="hedwig-links" to="/my-works/">
+                <Link className="img-links" className="hedwig-links" to="/HedwigShow/">
                     <img src={HedwigBuyerPic} className="project-img" id="buyer" width="45%"/>
                 </Link>
-                <Link className="img-links" className="hedwig-links" to="/my-works/">
+                <Link className="img-links" className="hedwig-links" to="/HedwigShow/">
                     <img src={HedwigVendorPic} className="project-img" id="vendor" width="45%"/>
                 </Link>
             </div>

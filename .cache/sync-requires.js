@@ -9,6 +9,7 @@ exports.components = {
   "component---src-pages-404-js": hot(preferDefault(require("/Users/helena/Documents/Docs for life/personal-web/Main-Page/secret-garden/src/pages/404.js"))),
   "component---src-pages-about-me-js": hot(preferDefault(require("/Users/helena/Documents/Docs for life/personal-web/Main-Page/secret-garden/src/pages/about-me.js"))),
   "component---src-pages-carpool-show-js": hot(preferDefault(require("/Users/helena/Documents/Docs for life/personal-web/Main-Page/secret-garden/src/pages/carpoolShow.js"))),
+  "component---src-pages-hedwig-show-js": hot(preferDefault(require("/Users/helena/Documents/Docs for life/personal-web/Main-Page/secret-garden/src/pages/HedwigShow.js"))),
   "component---src-pages-index-js": hot(preferDefault(require("/Users/helena/Documents/Docs for life/personal-web/Main-Page/secret-garden/src/pages/index.js"))),
   "component---src-pages-my-works-js": hot(preferDefault(require("/Users/helena/Documents/Docs for life/personal-web/Main-Page/secret-garden/src/pages/my-works.js"))),
   "component---src-pages-using-typescript-tsx": hot(preferDefault(require("/Users/helena/Documents/Docs for life/personal-web/Main-Page/secret-garden/src/pages/using-typescript.tsx")))
