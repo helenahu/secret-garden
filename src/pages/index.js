@@ -1,15 +1,21 @@
-import React from "react"
+import React,{useRef} from "react"
 import '../styles/index.css'
 import Header from "../components/header"
-import Body from "../components/body"
+import Landing from "../components/Landing"
+import About from "../components/about"
+import Portfolio from "../components/portfolio"
 
-const IndexPage = () => (
-  <div className='MainDiv'>
-    <Header></Header>
-    <Body></Body>
-    <div id="try">try this scroll?</div>
-    </div>
-   
-)
+export default function IndexPage() {
+  const aboutRef = useRef(1);
+  const worksRef = useRef(1);
+  return (
+    <div className='MainDiv'>
+    <Header scrollAbout={aboutRef} scrollWorks={worksRef}></Header>
+    <Landing></Landing>
+    <About refProp={aboutRef}></About>
+    <Portfolio refProp={worksRef}></Portfolio>
+  </div>
+  );
+}
 
-export default IndexPage
+

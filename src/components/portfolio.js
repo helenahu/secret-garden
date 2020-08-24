@@ -4,9 +4,9 @@ import HedwigBuyerPic from "../images/Hedwig-buyer-pic.svg"
 import HedwigVendorPic from "../images/Hedwig-vendor-pic.svg"
 import CarpoolPic from "../images/Carpool-pic.svg"
 import { Link } from "gatsby";
-export default function Portfolio() {
+export default function Portfolio(props) {
   return (
-    <div className="PortfolioDiv">
+    <div className="PortfolioDiv" ref={props.refProp}>
         <div id="recent-projects">-RECENT PROJECTS</div>
         {/* Hedwig */}
         <div className="project">

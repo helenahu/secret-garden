@@ -6,7 +6,7 @@ import {useSpring, animated} from 'react-spring'
 const interpLarge = i => r => `translate3d(0, ${15 * Math.sin(r + (i * 2 * Math.PI) / 1.6)}px, 0)`
 const interpSmall = i => r => `translate3d(0, ${5 * Math.sin(r + (i * 2 * Math.PI) / 1.6)}px, 0)`
 
-export default function About() {
+export default function About(props) {
   const { radians } = useSpring({
     to: async next => {
       while (1) await next({ radians: 2 * Math.PI })
@@ -16,7 +16,7 @@ export default function About() {
     reset: true,
   })
   return (
-    <div id="mainDiv">
+    <div id="mainDiv" ref={props.refProp}>
         <div id="titleDiv">
           <animated.img src={SwanTitle} width="100%" style={{ transform: radians.interpolate(interpSmall(0)) }} />
         </div>
