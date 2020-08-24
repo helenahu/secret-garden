@@ -12,7 +12,7 @@ import viewPerson from '../../images/Hedwig-img/vendors-img/view-person.gif'
 
 export default function ShowVendors() {
   return (
-    <div id="ShowContentDiv">
+    <div id="ShowContentDiv" >
 
         <div id="InSc">
         <p className="description">Individually Scrollable Columns for Order Processing
