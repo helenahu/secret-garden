@@ -21,7 +21,7 @@ export default function HedwigShow() {
     const [side, setSide] = useState("buyers");
   return (
     <div>
-        <Header/>
+        <Header onLanding={0}/>
         <div id="MainDiv">
         <div id="ShowTitleDiv">
         <img src={BuyerLogo} style={{width:"10vw" }}/>

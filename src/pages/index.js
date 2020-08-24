@@ -8,9 +8,10 @@ import Portfolio from "../components/portfolio"
 export default function IndexPage() {
   const aboutRef = useRef(1);
   const worksRef = useRef(1);
+  var Landed = 1;
   return (
     <div className='MainDiv'>
-    <Header scrollAbout={aboutRef} scrollWorks={worksRef}></Header>
+    <Header scrollAbout={aboutRef} scrollWorks={worksRef} onLanding={1}></Header>
     <Landing></Landing>
     <About refProp={aboutRef}></About>
     <Portfolio refProp={worksRef}></Portfolio>

@@ -21,7 +21,7 @@ export default function CarpoolShow() {
       })
   return (
     <div>
-    <Header/>
+    <Header onLanding={0}/>
     <div id="MainDiv">
         <div id="ShowTitleDiv">
             <animated.img src={Logo} width="70vh" style={{marginBottom:"1vw", width:"4vw", transform: radians.interpolate(interpSmall(1)) }}/>

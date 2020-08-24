@@ -3,6 +3,8 @@ import "../styles/about.css"
 import SwanTitle from "../images/swan-title.svg"
 import Earth from "../images/earth.svg"
 import {useSpring, animated} from 'react-spring'
+import {Link} from 'gatsby'
+
 const interpLarge = i => r => `translate3d(0, ${15 * Math.sin(r + (i * 2 * Math.PI) / 1.6)}px, 0)`
 const interpSmall = i => r => `translate3d(0, ${5 * Math.sin(r + (i * 2 * Math.PI) / 1.6)}px, 0)`
 
@@ -26,8 +28,11 @@ export default function About(props) {
             
             <div id="p_and_earth">
                 <p>Edu: Undergraduate @ Rice University.
-                <br/>Major: Computer Science.
-                <br/>Graduation: Expected May 2023.</p>
+                  <br/>Major: Computer Science.
+                  <br/>Graduation: Expected May 2023.
+                  <br/> 
+                  <Link href="https://drive.google.com/file/d/16ImShBvXmuwBzTjhVp8-1d4sQBf9QjtW/view?usp=sharing">View Resume</Link>
+                </p>
                 <animated.img src={Earth} width="20%" style={{ transform: radians.interpolate(interpLarge(1)) }} />
                 
             </div>

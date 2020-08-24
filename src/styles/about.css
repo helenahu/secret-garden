@@ -37,6 +37,19 @@
     justify-content: space-between;
 }
 
+#p_and_earth a{
+    color: #3E4251;
+    padding-bottom: 0.1em;
+    transition: 0.3s;
+}
+
+#p_and_earth a:hover{
+    color: black;
+    padding-bottom: 0;
+    border-bottom: 0.1em solid black;
+    transition: 0.3s
+}
+
 #p_and_earth img{
     padding-top: 8%;
     will-change: transform;

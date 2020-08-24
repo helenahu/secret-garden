@@ -9,6 +9,7 @@ const scrollToRef = (ref) => window.scrollTo(0, ref.current.offsetTop)
 export default function Header(props) {
   const aboutRef = props.scrollAbout;
   const worksRef = props.scrollWorks;
+  const onLanding = props.onLanding;
   return (
   <div id='HeadBar'>
   <div className='personal-logo'>
@@ -18,8 +19,9 @@ export default function Header(props) {
   </div>
   <div className='Container'>
     <div><Link to="/">Home</Link></div>
-    <div> <Link><div onClick={() => scrollToRef(aboutRef)}>About Me</div></Link> </div>
-    <div> <Link><div onClick={() => scrollToRef(worksRef)}>My Works</div></Link> </div>
+    {(onLanding==1) && <div> <Link ><div onClick={() => scrollToRef(aboutRef)}>About Me</div></Link> </div> }
+    {(onLanding==1) && <div> <Link><div onClick={() => scrollToRef(worksRef)}>My Works</div></Link> </div>}
+    
   </div>  
 </div>
   );

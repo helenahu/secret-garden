@@ -11,3 +11,6 @@ body{
     letter-spacing: 0.6px;
     color:#3E4251;
 }
+html {
+    scroll-behavior: smooth;
+}
