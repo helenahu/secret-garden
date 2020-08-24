@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 import '../styles/show.css';
 import Header from '../components/header'
 import {useSpring, animated} from 'react-spring'
-import BuyerLogo from '../images/Hedwig Buyers/BuyerLogo.svg'
+import BuyerLogo from '../images/Hedwig-img/BuyerLogo.svg'
 import ShowVendors from '../components/HedwigShow/ShowVendors';
 import ShowBuyers from '../components/HedwigShow/ShowBuyers';
 
