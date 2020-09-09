@@ -29,7 +29,7 @@ export default function About(props) {
             <div id="p_and_earth">
                 <p>Edu: Undergraduate @ Rice University.
                   <br/>Major: Computer Science.
-                  <br/>Graduation: Expected May 2023.
+                  <br/>Age: 19.
                   <br/> 
                   <Link href="https://drive.google.com/file/d/16ImShBvXmuwBzTjhVp8-1d4sQBf9QjtW/view?usp=sharing">View Resume</Link>
                 </p>
