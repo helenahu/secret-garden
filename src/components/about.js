@@ -31,7 +31,7 @@ export default function About(props) {
                   <br/>Major: Computer Science.
                   <br/>Age: 19.
                   <br/> 
-                  <Link href="https://drive.google.com/file/d/16ImShBvXmuwBzTjhVp8-1d4sQBf9QjtW/view?usp=sharing">View Resume</Link>
+                  <Link href="https://drive.google.com/file/d/1l-iCDgcMmqK5dwoUQz8ygUWiUWnq3icI/view?usp=sharing">View Resume</Link>
                 </p>
                 <animated.img src={Earth} width="20%" style={{ transform: radians.interpolate(interpLarge(1)) }} />
                 
