@@ -12,11 +12,10 @@
     background-color: #E4E6E8; 
     opacity: 0.6;
 }
-/* 
-.dark-header{
-    background-color: red;
-    opacity:0.6;
-} */
+#HeadBar:hover{
+    opacity: 1;
+    background-color: rgb(247, 247, 247);
+}
 
 .Container{
     display: grid;
